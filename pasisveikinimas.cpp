@@ -13,11 +13,11 @@ int main()
     }
    if(vardas[kiek-1]=='s')
    {
-       for(int i=0;i<kiek+2+10+2; i++) std::cout<<"*";
+       for(int i(0);i<kiek+2+10+2; i++) std::cout<<"*";
        std::cout<<std::endl;
-       for(int i=0; i<remelis; i++)
+       for(int i(0); i<remelis; i++)
        {std::cout<<"*";
-           for(int j=0; j<kiek+12; j++)
+           for(int j(0); j<kiek+12; j++)
            {
                std::cout<<" ";
            }
@@ -26,26 +26,26 @@ int main()
        }
        std::cout<<"* ";
        std::cout<<"Sveikas, "<<vardas<<"! *"<<std::endl;
-       for(int i=0; i<remelis; i++)
+       for(int i(0); i<remelis; i++)
        {std::cout<<"*";
-           for(int j=0; j<kiek+12; j++)
+           for(int j(0); j<kiek+12; j++)
            {
                std::cout<<" ";
            }
            std::cout<<"*";
            std::cout<<std::endl;
        }
-         for(int i=0;i<kiek+2+10+2; i++) std::cout<<"*";
+         for(int i(0);i<kiek+2+10+2; i++) std::cout<<"*";
        
     
    }
     else
     {
-        for(int i=0;i<kiek+2+10+1; i++) std::cout<<"*";
+        for(int i(0);i<kiek+2+10+1; i++) std::cout<<"*";
         std::cout<<std::endl;
-        for(int i=0; i<remelis; i++)
+        for(int i(0); i<remelis; i++)
         {std::cout<<"*";
-            for(int j=0; j<kiek+11; j++)
+            for(int j(0); j<kiek+11; j++)
             {
                 std::cout<<" ";
             }
@@ -54,16 +54,16 @@ int main()
         }
         std::cout<<"* ";
         std::cout<<"Sveika, "<<vardas<<"! *"<<std::endl;
-        for(int i=0; i<remelis; i++)
+        for(int i(0); i<remelis; i++)
         {std::cout<<"*";
-            for(int j=0; j<kiek+11; j++)
+            for(int j(0); j<kiek+11; j++)
             {
                 std::cout<<" ";
             }
             std::cout<<"*";
             std::cout<<std::endl;
         }
-        for(int i=0;i<kiek+2+10+1; i++) std::cout<<"*";
+        for(int i(0);i<kiek+2+10+1; i++) std::cout<<"*";
         
 
     }
